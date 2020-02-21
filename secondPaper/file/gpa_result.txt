@@ -1,0 +1,30 @@
+Roll  1: Math 70, English 80, Bangla 70
+Result is: 73.33
+
+Roll  2: Math 85, English 85, Bangla 85
+Result is: 85.00
+
+Roll  3: Math 80, English 90, Bangla 80
+Result is: 83.33
+
+Roll  4: Math 76, English 86, Bangla 86
+Result is: 82.67
+
+Roll  5: Math 75, English 75, Bangla 75
+Result is: 75.00
+
+Roll  6: Math 85, English 95, Bangla 86
+Result is: 88.67
+
+Roll  7: Math 87, English 87, Bangla 87
+Result is: 87.00
+
+Roll  8: Math 84, English 84, Bangla 84
+Result is: 84.00
+
+Roll  9: Math 79, English 79, Bangla 79
+Result is: 79.00
+
+Roll 10: Math 82, English 85, Bangla 82
+Result is: 83.00
+
