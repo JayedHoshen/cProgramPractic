@@ -1,0 +1,13 @@
+C programming what i cover................
+
+1) input/output, operator, datatype, keyword, variable/constant etc.
+2) Condition: if-else, if-else elseif, nested if-else else if, switch
+3) Control-statement: loop (for, while, do-while)
+4) string
+5) array (one/two dimention),
+6) pointer (malloc/calloc)
+7) make function (parameter, argument, return, call)
+8) Structure & Union
+9) File handle
+10) Recursion
+11) 
