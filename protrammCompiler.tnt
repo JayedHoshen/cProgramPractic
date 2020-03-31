@@ -1,0 +1,11 @@
+C programming compiling step by step::::
+
+1) Preprocessing: 
+	#include<stdio.h> er souce-code my program a import hoy.
+2) Compile:
+	checking have your program any syntex error?
+	then assembly code prepare.
+3) Assembly: 
+	convert assembly to machine language (.o file extention)
+4) Linking:
+	everything include your project file runs need.
