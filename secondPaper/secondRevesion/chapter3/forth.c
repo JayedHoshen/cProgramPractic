@@ -1,3 +1,4 @@
+// string value input deferent lines
 #include <stdio.h>
 
 int main()
@@ -10,7 +11,14 @@ int main()
     fp_in = fopen(input_file, "r");
     fp_out = fopen(output_file, "w");
 
+    fscanf(fp_in, "%d", &num1);
+    fscanf(fp_in, "%d", &num2);
+    sum = num1 + num2;
+    printf("%d %d %d\n", num1, num2, sum);
+    fprintf(fp_out, "%d\n", sum);
 
+    fclose(fp_in);
+    fclose(fp_out);
 
     return 0;
 }

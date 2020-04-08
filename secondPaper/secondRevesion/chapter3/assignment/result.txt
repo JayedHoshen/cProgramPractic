@@ -1,0 +1,10 @@
+Roll: 1 Bangla: 86, English: 75, Math: 95| Avg: 85.33
+Roll: 2 Bangla: 90, English: 85, Math: 85| Avg: 86.67
+Roll: 3 Bangla: 89, English: 96, Math: 76| Avg: 87.00
+Roll: 4 Bangla: 93, English: 65, Math: 95| Avg: 84.33
+Roll: 5 Bangla: 89, English: 79, Math: 79| Avg: 82.33
+Roll: 6 Bangla: 87, English: 94, Math: 84| Avg: 88.33
+Roll: 7 Bangla: 88, English: 71, Math: 91| Avg: 83.33
+Roll: 8 Bangla: 95, English: 63, Math: 83| Avg: 80.33
+Roll: 9 Bangla: 98, English: 58, Math: 78| Avg: 78.00
+Roll: 10 Bangla: 99, English: 59, Math: 99| Avg: 85.67
