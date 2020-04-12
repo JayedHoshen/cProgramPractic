@@ -5,6 +5,7 @@ void recurse(int count)
     if(count > 5) {
         return;
     }
+
     recurse(count + 1);
     printf("Count = %d\n", count);
 }
