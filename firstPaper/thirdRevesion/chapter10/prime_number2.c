@@ -1,3 +1,9 @@
+/*
+    Program: Input any number then print if prime or not prime
+    Author: Jayed hoshen
+    Version: 0.1
+*/
+
 #include <stdio.h>
 #include <math.h>
 

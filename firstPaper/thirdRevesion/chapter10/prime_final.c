@@ -1,3 +1,8 @@
+/*  Program: Calculating prime number
+    Author: Jayed hoshen
+    Version: 0.1
+*/
+
 #include <stdio.h>
 #include <math.h>
 
