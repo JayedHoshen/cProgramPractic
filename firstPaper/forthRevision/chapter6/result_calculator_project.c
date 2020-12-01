@@ -8,7 +8,7 @@
 int main()
 {
     // all variable declaration
-    int i, std = 40;
+    int i, std = 3;
     int ft_marks[std], st_marks[std], final_marks[std], marks_count[101];
     double total_marks[std];
 
