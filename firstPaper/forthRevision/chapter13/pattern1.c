@@ -1,5 +1,5 @@
 /*
-    write a program that print below shape, using loop
+    write a program printing this pattern number of N (n = 7)
     ccccccc
     cccccc
     ccccc
@@ -18,10 +18,10 @@
 
 int main()
 {
-    int i, j, n = 7;
+    int i, j, n;
 
-    //printf("N = ");
-    //scanf("%d", &n);
+    printf("N = ");
+    scanf("%d", &n);
 
     for (i = n; i >= 1; i--) {
         for (j = 1; j <= i; j++) {

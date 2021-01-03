@@ -2,18 +2,18 @@
 
 -----------------------first-------------------------------
     Column major order.....
-     12345
-      123
+     1 2 3
+      1 2
        1
-      123
-     12345
+      1 2
+     1 2 3
 
     Row major order........
-     33333
-      222
+     3 3 3
+      2 2
        1
-      222
-     33333
+      2 2
+     3 3 3
 
 #include <stdio.h>
 
@@ -30,13 +30,13 @@ int main()
     // first part
     for (row = 1; row <= n; row++) {
         // space printing
-        for (col = 1; col <= n - row; col++) {
+        for (col = 1; col <= n-row; col++) {
             printf(" ");
         }
 
         // number printing
-        for (col = 1; col <= 2*row - 1; col++) {
-            printf("%d", col);
+        for (col = 1; col <= row; col++) {
+            printf("%d ", col);
         }
 
         printf("\n");
@@ -45,13 +45,13 @@ int main()
     // second part
     for (row = n-1; row >= 1; row--) {
         // space printing
-        for (col = 1; col <= n - row; col++) {
+        for (col = 1; col <= n-row; col++) {
             printf(" ");
         }
 
         // number printing
-        for (col = 1; col <= 2*row - 1; col++) {
-            printf("%d", col);
+        for (col = 1; col <= row; col++) {
+            printf("%d ", col);
         }
 
         printf("\n");
@@ -63,13 +63,13 @@ int main()
     // first part
     for (row = 1; row <= n; row++) {
         // space printing
-        for (col = 1; col <= n - row; col++) {
+        for (col = 1; col <= n-row; col++) {
             printf(" ");
         }
 
         // number printing
-        for (col = 1; col <= 2*row - 1; col++) {
-            printf("%d", row);
+        for (col = 1; col <= row; col++) {
+            printf("%d ", row);
         }
 
         printf("\n");
@@ -78,13 +78,13 @@ int main()
     // second part
     for (row = n-1; row >= 1; row--) {
         // space printing
-        for (col = 1; col <= n - row; col++) {
+        for (col = 1; col <= n-row; col++) {
             printf(" ");
         }
 
         // number printing
-        for (col = 1; col <= 2*row - 1; col++) {
-            printf("%d", row);
+        for (col = 1; col <= row; col++) {
+            printf("%d ", row);
         }
 
         printf("\n");
@@ -95,18 +95,18 @@ int main()
 
 -----------------------second-------------------------------
     Column major order.....
-     10101
-      101
+     1 0 1
+      1 0
        1
-      101
-     10101
+      1 0
+     1 0 1
 
     Row major order........
-     11111
-      000
+     1 1 1
+      0 0
        1
-      000
-     11111
+      0 0
+     1 1 1
 
 #include <stdio.h>
 
@@ -123,13 +123,13 @@ int main()
     // first part
     for (row = 1; row <= n; row++) {
         // space printing
-        for (col = 1; col <= n - row; col++) {
+        for (col = 1; col <= n-row; col++) {
             printf(" ");
         }
 
         // number printing
-        for (col = 1; col <= 2*row - 1; col++) {
-            printf("%d", col%2);
+        for (col = 1; col <= row; col++) {
+            printf("%d ", col%2);
         }
 
         printf("\n");
@@ -138,13 +138,13 @@ int main()
     // second part
     for (row = n-1; row >= 1; row--) {
         // space printing
-        for (col = 1; col <= n - row; col++) {
+        for (col = 1; col <= n-row; col++) {
             printf(" ");
         }
 
         // number printing
-        for (col = 1; col <= 2*row - 1; col++) {
-            printf("%d", col%2);
+        for (col = 1; col <= row; col++) {
+            printf("%d ", col%2);
         }
 
         printf("\n");
@@ -156,13 +156,13 @@ int main()
     // first part
     for (row = 1; row <= n; row++) {
         // space printing
-        for (col = 1; col <= n - row; col++) {
+        for (col = 1; col <= n-row; col++) {
             printf(" ");
         }
 
         // number printing
-        for (col = 1; col <= 2*row - 1; col++) {
-            printf("%d", row%2);
+        for (col = 1; col <= row; col++) {
+            printf("%d ", row%2);
         }
 
         printf("\n");
@@ -171,13 +171,13 @@ int main()
     // second part
     for (row = n-1; row >= 1; row--) {
         // space printing
-        for (col = 1; col <= n - row; col++) {
+        for (col = 1; col <= n-row; col++) {
             printf(" ");
         }
 
         // number printing
-        for (col = 1; col <= 2*row - 1; col++) {
-            printf("%d", row%2);
+        for (col = 1; col <= row; col++) {
+            printf("%d ", row%2);
         }
 
         printf("\n");
@@ -189,16 +189,16 @@ int main()
 -----------------------third-------------------------------
     Column major order.....
        A
-      ABC
-     ABCDE
-      ABC
+      A B
+     A B C
+      A B
        A
 
     Row major order........
        A
-      BBB
-     CCCCC
-      BBB
+      B B
+     C C C
+      B B
        A
 
 #include <stdio.h>
@@ -216,13 +216,13 @@ int main()
     // first part
     for (row = 1; row <= n; row++) {
         // space printing
-        for (col = 1; col <= n - row; col++) {
+        for (col = 1; col <= n-row; col++) {
             printf(" ");
         }
 
         // number printing
-        for (col = 1; col <= 2*row - 1; col++) {
-            printf("%c", col+64);
+        for (col = 1; col <= row; col++) {
+            printf("%c ", col+64);
         }
 
         printf("\n");
@@ -231,13 +231,13 @@ int main()
     // second part
     for (row = n-1; row >= 1; row--) {
         // space printing
-        for (col = 1; col <= n - row; col++) {
+        for (col = 1; col <= n-row; col++) {
             printf(" ");
         }
 
         // number printing
-        for (col = 1; col <= 2*row - 1; col++) {
-            printf("%c", col+64);
+        for (col = 1; col <= row; col++) {
+            printf("%c ", col+64);
         }
 
         printf("\n");
@@ -249,13 +249,13 @@ int main()
     // first part
     for (row = 1; row <= n; row++) {
         // space printing
-        for (col = 1; col <= n - row; col++) {
+        for (col = 1; col <= n-row; col++) {
             printf(" ");
         }
 
         // number printing
-        for (col = 1; col <= 2*row - 1; col++) {
-            printf("%c", row+64);
+        for (col = 1; col <= row; col++) {
+            printf("%c ", row+64);
         }
 
         printf("\n");
@@ -264,13 +264,13 @@ int main()
     // second part
     for (row = n-1; row >= 1; row--) {
         // space printing
-        for (col = 1; col <= n - row; col++) {
+        for (col = 1; col <= n-row; col++) {
             printf(" ");
         }
 
         // number printing
-        for (col = 1; col <= 2*row - 1; col++) {
-            printf("%c", row+64);
+        for (col = 1; col <= row; col++) {
+            printf("%c ", row+64);
         }
 
         printf("\n");
@@ -281,9 +281,9 @@ int main()
 
 -----------------------forth-------------------------------
        *
-      ***
-     *****
-      ***
+      * *
+     * * *
+      * *
        *
 
 #include <stdio.h>
@@ -298,13 +298,13 @@ int main()
     // first part
     for (row = 1; row <= n; row++) {
         // space printing
-        for (col = 1; col <= n - row; col++) {
+        for (col = 1; col <= n-row; col++) {
             printf(" ");
         }
 
         // number printing
-        for (col = 1; col <= 2*row - 1; col++) {
-            printf("*");
+        for (col = 1; col <= row ; col++) {
+            printf("* ");
         }
 
         printf("\n");
@@ -313,13 +313,13 @@ int main()
     // second part
     for (row = n-1; row >= 1; row--) {
         // space printing
-        for (col = 1; col <= n - row; col++) {
+        for (col = 1; col <= n-row; col++) {
             printf(" ");
         }
 
         // number printing
-        for (col = 1; col <= 2*row - 1; col++) {
-            printf("*");
+        for (col = 1; col <= row; col++) {
+            printf("* ");
         }
 
         printf("\n");
@@ -327,4 +327,5 @@ int main()
 
     return 0;
 }
-*/
+
+
