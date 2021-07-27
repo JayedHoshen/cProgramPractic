@@ -19,5 +19,7 @@ int main()
     printf("Total amount: %0.2lf\n", total_amount);
     printf("Monthly amount: %0.2lf\n", monthly_amount);
 
+    getch();
+
     return 0;
 }
