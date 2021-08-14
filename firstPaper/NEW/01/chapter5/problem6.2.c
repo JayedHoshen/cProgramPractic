@@ -1,4 +1,4 @@
-// celsius to farenheit: C = (F + 32) / 1.8;
+// farenheit to celsius: C = (F + 32) / 1.8;
 
 #include <stdio.h>
 
