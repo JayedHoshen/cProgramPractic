@@ -1,12 +1,10 @@
 #include <stdio.h>
 
-int  main()
+int main()
 {
-    int my_ara[10];
+    int my_ara[10] = {5, 10, 15, 20};
 
-    printf("%d\n", my_ara[0]);
-    printf("%d\n", my_ara[9]);
-
+    printf("%d, %d\n", my_ara[0], my_ara[9]);
 
     return 0;
 }
