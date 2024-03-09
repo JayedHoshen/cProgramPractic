@@ -3,7 +3,7 @@
 int main()
 {
     FILE *fp;
-    char filename[] = "my_file1.txt";
+    char filename[] = "my_file.txt";
 
     fp = fopen(filename, "w");
 

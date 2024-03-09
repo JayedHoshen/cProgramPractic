@@ -12,13 +12,12 @@ int main()
 
     fscanf(fp_in, "%d", &num1);
     fscanf(fp_in, "%d", &num2);
-    sum = num1 + num2;
+    sum = num1+num2;
     printf("%d %d %d\n", num1, num2, sum);
-    fprintf(fp_out, "Summation = %d\n", sum);
+    fprintf(fp_out, "%d + %d = %d\n", num1, num2, sum);
 
     fclose(fp_in);
     fclose(fp_out);
 
     return 0;
 }
-

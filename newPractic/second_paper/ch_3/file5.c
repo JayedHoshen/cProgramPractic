@@ -4,7 +4,7 @@ int main()
 {
     FILE *fp_in, *fp_out;
     char *input_file = "in.txt";
-    char *output_file = "out1.txt";
+    char *output_file = "out.txt";
     char line[80];
     int num1, num2, sum;
 
@@ -18,10 +18,11 @@ int main()
 
     sum = num1 + num2;
     printf("%d %d %d\n", num1, num2, sum);
-    fprintf(fp_out, "Summation is %d\n", sum);
+    fprintf(fp_out, "%d\n", sum);
 
     fclose(fp_in);
     fclose(fp_out);
+
 
     return 0;
 }
